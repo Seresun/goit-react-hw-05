@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { fetchMovieCast } from "../../services/api";
+import { fetchMovieCast } from "../../services/tmdbApi";
 
 function MovieCast() {
   const { movieId } = useParams();
